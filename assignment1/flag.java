@@ -1,5 +1,3 @@
-
-
 class flag.java
 {
 	public static void main(String agrs[])
