@@ -1,7 +1,9 @@
 public class second _2{
+	
 	    public static void main(String [] args){
-		int a, b, sum;
-		a=74; 
-		b= 36;
-		sum=a+b;
+		    
+		int d, c, sum;
+		d=74; 
+		c= 36;
+		sum=d+c;
 		System.out.println("The addition is "+sum);
