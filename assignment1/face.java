@@ -1,7 +1,7 @@
 
 class face
 {
-	public static void main(String agrs[]) 
+	public static void main(String []agrs) 
 	{
 	  	   System.out.println(" +\"\"\"\"\"+ ");
 		   System.out.println("[| o o |]");
