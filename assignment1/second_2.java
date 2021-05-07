@@ -7,3 +7,4 @@ public class second _2{
 		c= 36;
 		sum=d+c;
 		System.out.println("The addition is "+sum);
+	    }}
