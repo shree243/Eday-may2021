@@ -8,9 +8,9 @@ class eleven
 	Scanner sc = new Scanner(System.in);
 	System.out.print("Enter a:");
 	float a = sc.nextFloat();
-	float PI = 3.14f;
-	float Area = PI*a*a;
-	float Perimeter = 2*PI*a;  
+	float P = 3.14f;
+	float Area = P*a*a;
+	float Perimeter = 2*P*a;  
 	System.out.println("Area is :"+ Area);
 	System.out.println("Perimeter is:"+ Perimeter );	
 	
