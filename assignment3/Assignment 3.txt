@@ -1,0 +1,129 @@
+26. Is an empty .java file a valid source file name?
+  
+   Yes, an empty .java file is a perfectly valid source file.
+   
+27.Is JRE different for different Platforms ?
+ 
+   JDK consists of Compiler & JRE (JVM)and this JRE is different for different platforms. 
+   But java compiler is same for every one. Therefore we can say java software is different for different platforms.
+   
+   
+28. Difference between C++ and java in terms of object creation.   
+
+   C++ supports manual object management with the help of new and delete keywords whereas Java has built-in automatic 
+   garbage collection. C++ supports structures whereas Java doesn’t supports structures.
+   
+29. Who invokes main() function ?
+
+  Static methods are the method which invokes without creating the objects, so we do not need any object to call the main() method. void:   
+   
+30. What is .class file known as ?
+
+   Files which are given the .CLASS extension are known as Java class files, however other file types may also use this extension. If you are aware of any additional file formats that use the CLASS extension, please let us know.
+
+31.  Can we define more than one public class in a java source code ? what is the rule of 
+public class and file name?
+
+  Yes You can have more than one Class in one .Java file.
+  In the case of a public class, we can’t use a different file name. The filename must have the same name as the public class name in that file, which is the way to tell the JVM that this is an entry point.
+  
+32.  What is JIT compiler?
+
+   It used during the startup of the large Java application. 
+After the starting of the Java application, most of the methods compiled when they reach the invocation threshold.
+The methods that consume more than 1% are scheduled for hot compilation.
+The method scheduled for a very hot if they are not scorching but hot.  
+
+33.  How many types of memory areas are allocated by JVM?
+
+  1. The Method or Class Area: This type stores details, that has class level like static variables, class name, methods, constant pool, etc. When JVM starts, it creates the method area. The method or class area size can be constant, or it can also vary. If its memory is not sufficient, JVM throws OutOfMemoryError.
+
+2. The Heap Area: It usually stores the objects instantiated by the application. These objects that are present in the heap can be split between threads. Usually, programmers restrict their size to avoid garbage collection pauses.
+3. Stack Area: JVM create one run-time stack for every thread. That is present in the stack area. The stack area is used to store either the data or partial results of the returning value from the methods. Once the thread stops, the run-time stack will get destroyed.
+
+4. Program Counter Register or PCR: Each thread has a separate Program Counter Register or PCR. This type is basically used to store addresses of current execution instruction of a particular thread.
+
+5. The Native Method Stacks: Similar to PCR, separate native method stacks are created for every thread. Its purpose is to store the native method information.
+
+
+34.  What is the rule for local member in java.
+
+  Local variables are visible only within the declared method, constructor, or block. Local variables are implemented at stack level internally. There is no default value for local variables, so local variables should be declared and an initial value should be assigned before the first use.
+  
+35.  What are the various access specifiers in Java?
+
+  1. Public
+  2. Private
+  3. Secured
+  4. Default  
+  
+36.  What is the rule for local member in java.
+
+  Local variables are visible only within the declared method, constructor, or block. Local variables are implemented at stack level internally. There is no default value for local variables, so local variables should be declared and an initial value should be assigned before the first use.
+  
+37. What is native code?  
+
+  Native code is computer programming (code) that is compiled to run with a particular processor (such as an Intel x86 -class processor) and its set of instruction s. If the same program is run on a computer with a different processor, software can be provided so that the computer emulates the original processor.
+
+38.  Why there is no sizeof operator in java ?
+  
+   Java do not have any sizeof operator in the language. The following are two reasons for that The size of data structure is same on all platforms Java virtual machine with garbage collection will do the memory management for you. So as a developer, you do not need to worry about the memory management in java.
+   
+39.  What kinds of programs u can develop using Java ?
+
+   1.Software Tools
+   2. Android Applications
+   3. Web Applications
+   4. Scientific Applications 
+
+40.  U have reference type as a member of class. What is the default value it gets?
+
+
+41.  What is the job done by classloader ?
+
+  A Java Classloader is of three types: BootStrap ClassLoader: A Bootstrap Classloader is a Machine code which kickstarts the operation when the JVM calls it. It is not a java class. Its job is to load the first pure Java ClassLoader.   
+  
+42.  Explain the hierarchy of classloaders in java.
+
+    The Java Virtual Machine and the Java ClassLoader use an algorithm called the Delegation Hierarchy Algorithm to Load the classes into the Java file. The ClassLoader works based on a set of operations given by the delegation model. They are: ClassLoader always follows the Delegation Hierarchy Principle.
+	
+43.  What is the role played by Bytecode Verifier ?
+
+  The bytecode verifier acts as a sort of gatekeeper: it ensures that code passed to the Java interpreter is in a fit state to be executed and can run without fear of breaking the Java interpreter. Imported code is not allowed to execute by any means until after it has passed the verifier's tests.
+
+44.  What are the memory areas allocated by JVM ?  
+
+  JVM has five memory locations namely − Heap − Runtime storage allocation for objects (reference types). Stack − Storage for local variables and partial results. A stack contains frames and allocates one for each thread.
+  
+45.  What kinds of programs u can develop using Java
+
+     Mobile Applications
+     Desktop GUI Applications
+     Web-based Applications
+     Enterprise Applications
+     Scientific Applications
+     Gaming Applications
+     Big Data technologies
+     Business Applications
+     Distributed Applications
+     Cloud-based Applications
+	 
+46.  When parseInt() method can be used?
+
+  Integer.parseInt () method is used to convert an string value into integer. JVM reads each element as String and hence we have to convert an entered String value into respective data type Why and how to use Integer.parseInt () in java. Integer.parseInt () method is used to convert an string value into integer.	 
+  
+47.  What is finalized() method ? 
+
+  The finalize() method of Object class is a method that the Garbage Collector always calls just before the deletion/destroying the object which is eligible for Garbage Collection, so as to perform clean-up activity
+
+48.  Difference between C++ pointer and Java reference. 
+
+   Another important difference between pointers and Java/C++ references is that you can take the address of a pointer you cannot access the address of a reference (indeed a C++ reference need not actually exist as an object in memory at all) consequently you can have a pointer to a pointer but not a reference to a reference
+   
+49.  U have reference type as a member of class. What is the default value it gets?
+
+
+
+50. What are the expressions allowed in switch block of java ?
+
+      The Java switch expression must be of byte, short, int, long (with its Wrapper type), enums and string.
