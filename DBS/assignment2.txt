@@ -1,0 +1,18 @@
+select city from s order by  city desc;
+
+select status from s
+ where status between 10 and 20;
+
+select pname, weight  from p
+where weight not between 10 and 15;
+
+select pname from p
+where pname like 'S%';
+
+select city from s
+where city like 'l%';
+
+select  * from p 
+where pname like '__n';
+
+commit;

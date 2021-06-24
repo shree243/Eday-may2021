@@ -1,0 +1,85 @@
+create table sdept(
+
+
+deptno char (2),
+deptname char (15)
+
+);
+
+insert into sdept values ('10', 'Development' );
+insert into sdept values ('20', 'Training' );
+select * from sdept;
+
+
+insert into semp values ('0001', 'SUNIL', '6000', '10', NULL);
+insert into semp values ('0002', 'HIREN', '8000', '20', NULL);
+insert into semp values ('0003', 'ALI', '4000', '10', '0001');
+insert into semp values ('0004', 'GEROGE', '6000', null, '0002');
+select * from semp;
+
+create table s(
+sno int,
+sname char (20),
+status char (20),
+city char (20)
+);
+select * from s;
+
+create table p(
+pno int (20),
+pname char (20),
+color char (20),
+weight char (20),
+city  char (20)
+);
+select * from p;
+
+create table j(
+jno int (40),
+jname char (40),
+city char (40)
+);
+select * from j;
+
+create table spj(
+sno varchar(40),
+pno varchar (40),
+jno varchar (40),
+qty int (40)
+);
+select * from spj;
+
+drop table spj;
+insert into s values (10, 'bmw', '10', 'London'), (20, 'mercedes', '20', 'Paris'), (30, 'ferarri', '30', 'Athens');
+insert into p values (10, 'ball bearing', 'black', '12', 'London'), (20, 'steel rod', 'white', '18', 'Athens'), (30, 'sprocket', 'blue', '22','Paris');
+insert into j values (10, 'white board','London'), (20, 'black board', 'Paris'), (30, 'cycle', 'Athens');
+insert into spj values ('s1', 'p1', 'j1', 23);
+select * from s;
+
+select sno, sname from s;
+select pname, color from p
+where city='London';
+
+select  * from s
+where city= 'London';
+
+select * from s 
+where city = 'Athens' or city = 'Paris' ; 
+
+select * from p
+where city = 'Athens';
+
+select * from p
+where weight <14 and weight >12;
+
+select * from s
+where status >=20; 
+
+select * from s
+where city!= 'London';
+
+
+select city from s;
+
+select weight  'grams',
+ weight *  1000  'Milligrams' , weight  / 1000 'kilograms' from p;
