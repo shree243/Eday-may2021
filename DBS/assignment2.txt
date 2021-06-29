@@ -1,4 +1,4 @@
-select city from s order by  city desc;
+select * from s order by  city desc;
 
 select status from s
  where status between 10 and 20;
