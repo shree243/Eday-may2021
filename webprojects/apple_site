@@ -1,1 +1,458 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title> Applee.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="apple.css" rel="stylesheet" >
+   
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+            <a href="https://www.apple.com/in/" target="blank">
+             <i class="fab fa-apple"> </i></a>
+        </div>
+        <ul>
+            <li>
+                <a href="https://www.apple.com/in/mac/ " class="link1" target="blank"> Mac</a>
+                </li>
+                <li>
+                    <a href="https://www.apple.com/in/ipad/ " class="link2" target="blank"> iPad</a>
+                </li>
+               <li>
+                <a href="https://www.apple.com/in/iphone/ " class="link3" target="blank"> iPhone</a>
+               </li>
+               <li>
+                <a href=" https://www.apple.com/in/watch/" class="link4" target="blank"> Watch</a>
+              </li>
+               <li>
+                <a href=" https://www.apple.com/in/tv/" class="link5" target="blank"> Tv</a>
+               </li>
+               <li>
+                <a href="https://www.apple.com/in/music/ " class="link6" target="blank"> Music</a>
+            </li>
+            <li>
+                <a href="https://support.apple.com/en-in " class="link7" target="blank"> Support</a>
+            </li>
+        </ul>
+       <div class="logo2">
+       <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    <p class="note1"> Shop now at the Apple Store online 
+        with many great ways ways to buy.get free, 
+        no contact delibery, <br><br>specialst help and more </p>
+        <div class ="cnt1">
+          <h1 class="i12"> iPhone 12</h1> 
+            <h3 class="bl"> Blast past fast</h3>
+            <h4 class="fr"> From RS69900 before trade-in <br> No Cost EMI for 6 Months.*</h4>
+           <a href="https://www.apple.com/in/music/" target="blank"> <button class="btn"> Learn more > </button></a>
+        </div>
+       <div class="sh1"> 
+    <a href="https://www.apple.com/in/iphone-12/"target="blank"> <img src="img3.png"  width=900px ></a>
+    </div>  
+    
+        <div class= apple5>
+            <a href="https://www.apple.com/in/iphone-12-pro/" target ="blank" >
+            <img  class="app12"src="app1.jpg" width="100%" ></a>
+            <div class="te">
+           <h1> iPhone 12 Pro</h1><br>
+           <h3> It's a leap year</h3> <br>
+           <h5> From RS 119900 before trade-in  </h5>
+            </div>
+        </div>
+        <div class="totalc">
+        <div>
+     
+            <a href="https://www.apple.com/in/imac-24/" target ="blank">  <img class ="img5" src="app2.jpg" width ="700px"></a>
+        </div>
+        
+        <div class="img11">
+
+            <a href="https://www.apple.com/in/iphone-12-pro/"target="blank">  <img src="app3.jpg" width="800px" height="930px" ></a>
+        </div>
+
+    </div>
+
+
+    <div class="notegear">
+
+    <div class="gear">
+        <a href="https://www.apple.com/in/watch/" target="blank">
+            <img src="gear.jpg" width="700px">
+        </a>
+    </div>
+
+    <div>
+        <a href="https://www.apple.com/us-hed/shop/buy-watch/apple-watch" target="blank">
+        <h1  class="note">
+            Apple Watch Series 6
+        </h1>
+    </a>
+    </div>
+
+</div>
+
+<div class="enter">
+
+    <div class="movie">
+<a href=" https://www.youtube.com/watch?v=mYfJxlgR2jw" target="blank">
+    <img src="pixar1.png" width="700px" height="400px">
+</a>
+    </div>
+    <div class="snoopy">
+        <a href="https://www.youtube.com/watch?v=A-C9hfwvLDc" target="blank">
+<img src="tv.png" target="blank" width="300px" height="400px"></a>
+
+    </div>
+    <div class="adver">
+<iframe src="https://www.republicworld.com/" height="400px" width="500px"></iframe>
+    </div>
+</div>
+
+<div class="mar">
+<marquee behavior="scroll" direction="left" 
+    scrollamount="10"><a href="https://www.apple.com/in/newsroom/" ><img src="yr22.png" ></a> </marquee>
+></div>
+
+<div  class="video">
+
+    <div class="vd1" >
+    <video width=500px height=300px controls  >
+        <source src="apple.mp4" type="video/mp4">
+    </video>
+</div>
+<div class="vd2" >
+
+<video width=500px height=300px controls >
+    <source src="apple2.mp4" type="video/mp4">
+</video> 
+</div>
+
+</div>
+
+
+<div class="info">
+    <p>
+        *Listed pricing is Maximum Retail Price (inclusive of all taxes).<br>
+‡6 months No Cost EMI is available for purchases made using 
+qualifying credit cards. This offer is available on qualifying
+ purchases made after 1:00 PM IST on Monday, 14 June and before
+  11:59 PM IST on Thursday, 29 July 2021. Minimum order spend 
+  ₹5000. 
+  <br>  <br>  <br> 
+  Offer cannot be combined with Apple Store for Education 
+  or Corporate Employee Purchase Plan pricing. Terms & Conditions 
+  apply. Card eligibility is subject to terms and conditions 
+  between you and your card-issuing bank. No Cost EMI is 
+  applicable on most leading banks. Credit card EMI transactions
+   on 6 month tenure only.
+   <br> <br>  <br> 
+    Offer may be revised or withdrawn 
+   without any prior notice. Offer valid for limited period.
+Based on purchase of ₹66941. Total amount payable ₹69900 paid over
+ 6 months as 6 monthly payments of ₹11650 at an interest rate of 
+ 15% p.a. Total interest paid to bank: ₹2959.
+<br> <br>  <br> 
+ Qualified purchasers receive promotion savings when they 
+purchase an eligible Mac or eligible iPad with eligible AirPods 
+at a qualifying location. Only one promotion product per eligible
+ Mac or eligible iPad per qualified purchaser. Offer is subject to 
+ availability. While stocks last. 
+ <br>
+ Subject to terms and conditions herein.
+Apple TV+ is ₹99/month after free trial. One subscription per 
+Family Sharing group. 
+<br>
+Offer is valid for 3 months after eligible 
+device activation. Plan automatically renews until cancelled. 
+Restrictions and other terms apply.
+    </p>
+</div>
+
+<br> <br> <br>
+
+<hr >
+
+
+<div class="infoitem">
+    <div class="sh10">
+        <ul>
+            <li class ="se1">Shop and Learn</li>
+            <a  target="blank"> <li> Mac </li></a>
+                <a><li> iPad </li></a>
+                <a > <li> iphone </li></a>
+                <a > <li> Watch </li></a>
+                <a ></a><li> Tv </li></a>
+                <a ></a><li> Music </li></a>
+                <a ></a><li> Airpods </li></a>
+                <a > <li> HomePod mini </li></a>
+                <a > <li> iPod touch </li></a>
+                <a > <li> AirTag </li></a>
+                <a > <li> Accessories </li></a> 
+        </ul>
+
+
+    </div>
+
+    <div class="ser">
+        <ul>
+            <li>Services</li>
+            <a > <li> Apple Music </li></a>
+                <a ><li> Apple TV+ </li></a>
+                <a > <li> Apple Arcade </li></a>
+                <a > <li> icloud </li></a>
+                <a ></a><li> Apple One </li></a>
+                <a ></a><li> Apple Books </li></a>
+                <a ></a><li> Apple Books</li></a>
+                <a > <li> Apple Podcasts </li></a>
+                <a > <li> App Store </li></a>
+                
+        </ul>
+
+
+    </div>
+
+
+    <div class="apvalue">
+        <ul>
+            <li>Apple Value</li>
+            <a > <li> Accessibility </li></a>
+                <a ><li> Environment </li></a>
+                <a > <li> Privacy </li></a>
+                <a > <li> Supplier Responsibility </li></a>
+               
+        </ul>
+
+    </div>
+    <div class="lastv">
+        <ul>
+            <li> About Apple </li>
+            <a > <li> Newsroom </li></a>
+                <a ><li> Investor </li></a>
+                <a > <li> Events </li></a>
+                <a > <li> Contact Apple </li></a>
+               
+        </ul>
+
+    </div>
+
+</div>
+
+
+</html>
+======================================================================================================================================================================
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+.logo:hover, .link1:hover, .link2:hover,.link3:hover, .link4:hover, .link5:hover, .link6:hover, .link7:hover{
+    color:grey;
+}
+
+nav{
+    display:flex;
+    width:100%;
+    background-color: rgb(51 ,51, 51);
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    opacity: 0.8;
+}
+
+nav i{
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+nav ul
+{
+    display:flex;
+    align-items: center;
+}
+
+nav ul li{
+    justify-content: space-between;
+    width: 150px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.note1{
+    width: 100%;
+   text-align: center;
+   height: 60px;
+   background-color:rgb(245 245 247);
+   margin: 20px 0px 0px 0px; 
+}
+.i12{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.bl{
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.fr{
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 15px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left: 700px;
+    border-radius: 5px;
+    border-style:none;
+    color:midnightblue;
+}
+.apple5{
+
+}
+.sh1{
+    margin-left: 200px;
+}
+
+.img1{
+    width:100vw;
+     height:60vh;
+    margin-left: 0px;
+    background-position:cover;
+
+}
+
+.img4{
+    margin-left: 200px;
+}
+.img5{
+    margin-left: 10px;
+}
+
+.totalc{
+    display: flex;
+}
+.img11{
+    margin-left: 10px;
+    height: 400px;
+}
+.apple5{
+    position: relative;
+
+}
+
+.te{
+    font-size: 30px;
+    top: 30%;
+    left: 60%;
+    position:absolute;
+z-index: 100;
+color: aliceblue;
+}
+.te h1{
+    font-size: 50px;
+}
+.te h3{
+    font-size: 30px;
+}
+.te h5{
+    font-size: 20px;
+}
+
+.gear{
+margin-left: 10px;
+}
+
+.movie{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.note{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+.notegear{
+    position:relative;
+}
+.enter{
+    display: flex;
+}
+.snoopy{
+    margin-left: 10px;
+}
+.adver{
+
+}
+.info{
+    font-size: 5px;
+    color:silver;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-left: 200px;
+}
+
+.infoitem{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    text-decoration: none;
+    color:silver;
+
+
+}
+.sh10:hover, .ser:hover, .apvalue:hover, .lastv:hover {
+    color: darkslategrey;
+}
+
+.video{
+    display: flex;
+}
+
+.vd1{
+    margin-top: 100px;
+    margin-left:200px;
+}
+.vd2{
+    margin-top: 100px;
+    margin-left:200px;
+}
+
+
+===============================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
